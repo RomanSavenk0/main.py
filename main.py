@@ -48,7 +48,7 @@ def timer():
     bot.send_message(chat_id, greetings_list[random_index2])
 
 def run_timer():
-    time_str1 = '{:02d}:{:02d}'.format(random.randint(9, 12), random.randint(0, 59))
+    time_str1 = '{:02d}:{:02d}'.format(random.randint(8, 12), random.randint(0, 59))
     time_str2 = '{:02d}:{:02d}'.format(random.randint(13, 15), random.randint(0, 59))
     time_str3 = '{:02d}:{:02d}'.format(random.randint(16, 17), random.randint(0, 59))
 
